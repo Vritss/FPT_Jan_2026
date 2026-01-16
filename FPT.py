@@ -1,10 +1,8 @@
-############################################
 # Ninja Frog Jump Game
 # Name: Vritika
-# Course: ICS
+# Course: ICSUI
 # Date: Jan 2026
-#
-# Simple pygame jumping game
+# Simple pygame jumping game using images, collision detection, and the game ends when the score reaches the target. 
 import pygame
 import random
 
@@ -12,7 +10,7 @@ import random
 pygame.init()
 WIDTH = 1000
 HEIGHT = 667
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
+screen = pygame.display.set_mode((WIDTH, HEIGHT)) #creates a 1000 x 667 game window 
 pygame.display.set_caption("Ninja Frog")
 
 clock = pygame.time.Clock()
