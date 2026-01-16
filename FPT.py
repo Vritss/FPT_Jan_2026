@@ -49,7 +49,7 @@ def reset_saw():
     """Resets saw position and size"""
     global saw_x, saw_size
     saw_x = WIDTH + random.randint(100, 300)
-    saw_size = random.randint(32, 50)
+    saw_size = random.randint(30, 40)
 
 #  MAIN LOOP
 running = True
